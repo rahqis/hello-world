@@ -8,10 +8,10 @@ python:
 install:
   - pip install -U pip
   - |
-      # pip installs
-      set -e
-      pip install twisted
-      pip install -e .
+    # pip installs
+    set -e
+    pip install twisted
+    pip install -e .
 # Tests running commands
 script:
-  - trial hello
+  - trial
